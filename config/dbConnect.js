@@ -4,7 +4,7 @@ const dbconnect=()=>
 {
     try
     {
-        const conn=mongoose.connect("mongodb://127.0.0.1:27017/todo")
+        const conn=mongoose.connect("mongodb+srv://moquuet123@cluster0.g4lvs.mongodb.net/TodoApp?retryWrites=true&w=majority")
         console.log("DataBase Connected");
     }
     catch(err)
