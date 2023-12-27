@@ -1,0 +1,21 @@
+
+POST http://localhost:3000/api/createtodo
+Content-Type: application/json
+
+{
+    "name":"Sing"
+}
+
+###
+GET http://localhost:3000/api/gettodo
+
+###
+PUT http://localhost:3000/api/updatetodo/6570961214d0aecf62618ef3
+Content-Type: application/json
+
+{
+    "name":"Run"
+}
+
+###
+DELETE http://localhost:3000/api/deletetodo/65714cc825e0c8217d7976a1
